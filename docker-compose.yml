@@ -1,0 +1,75 @@
+name: thesis-lab
+
+services:
+  trino:
+    image: trinodb/trino:latest
+    container_name: trino
+    hostname: trino
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino/etc:/etc/trino
+    depends_on:
+      - hive-metastore
+      - minio
+    networks:
+      - lakehouse
+
+  postgres:
+    image: postgres:14-alpine
+    container_name: postgres
+    hostname: postgres
+    environment:
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: hive
+      POSTGRES_DB: metastore
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lakehouse
+
+  hive-metastore:
+    image: naushadh/hive-metastore:latest
+    container_name: hive-metastore
+    hostname: hive-metastore
+    environment:
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_DB: metastore
+      DATABASE_USER: hive
+      DATABASE_PASSWORD: hive
+      AWS_ACCESS_KEY_ID: minio
+      AWS_SECRET_ACCESS_KEY: minio123
+      S3_ENDPOINT_URL: http://minio:9000
+      S3_BUCKET: lake
+      S3_PREFIX: warehouse
+    ports:
+      - "9083:9083"
+    depends_on:
+      - postgres
+      - minio
+    networks:
+      - lakehouse
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    hostname: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    command: server /data --console-address ":9001"
+    volumes:
+      - ./data/minio:/data
+    networks:
+      - lakehouse
+
+networks:
+  lakehouse:
+    driver: bridge
+
+volumes:
+  postgres_data:
