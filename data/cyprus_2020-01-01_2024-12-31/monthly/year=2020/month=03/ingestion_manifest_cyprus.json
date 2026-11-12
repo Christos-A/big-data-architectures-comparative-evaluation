@@ -1,0 +1,52 @@
+{
+  "region_name": "cyprus",
+  "year": "2020",
+  "month": "03",
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-31",
+  "timezone": "Europe/Nicosia",
+  "points": [
+    {
+      "point_name": "Nicosia",
+      "latitude": 35.1856,
+      "longitude": 33.3823
+    },
+    {
+      "point_name": "Limassol",
+      "latitude": 34.7071,
+      "longitude": 33.0226
+    },
+    {
+      "point_name": "Larnaca",
+      "latitude": 34.9167,
+      "longitude": 33.6292
+    },
+    {
+      "point_name": "Paphos",
+      "latitude": 34.7754,
+      "longitude": 32.4218
+    },
+    {
+      "point_name": "AyiaNapa",
+      "latitude": 34.9821,
+      "longitude": 34.0018
+    },
+    {
+      "point_name": "Troodos",
+      "latitude": 34.923,
+      "longitude": 32.8597
+    }
+  ],
+  "rows": {
+    "archive_hourly": 4464,
+    "enriched_hourly": 4464,
+    "daily_by_point": 186,
+    "daily_cyprus": 31
+  },
+  "generated_at_utc": "2026-04-21T19:40:23.145676+00:00",
+  "architectures": [
+    "lake",
+    "lakehouse",
+    "mesh"
+  ]
+}

@@ -1,0 +1,28 @@
+Climate Report for Cyprus - 2020-02
+===================================
+
+Coverage period: 2020-02-01 to 2020-02-29
+Generated at (UTC): 2026-04-21T19:40:19.735727+00:00
+Observation points used: 6
+Total hourly rows: 4176
+
+Monthly summary
+- Mean temperature: 10.14 °C
+- Min temperature: -10.0 °C
+- Max temperature: 21.0 °C
+- Mean humidity: 74.41 %
+- Total precipitation: 393.9 mm
+- Max wind speed: 38.8 km/h
+
+Rows per observation point
+- AyiaNapa: 696
+- Larnaca: 696
+- Limassol: 696
+- Nicosia: 696
+- Paphos: 696
+- Troodos: 696
+
+Data types generated
+- Structured: CSV and Parquet
+- Semi-structured: JSON payloads and JSON summaries
+- Unstructured: text report and image chart

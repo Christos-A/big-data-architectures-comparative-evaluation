@@ -1,0 +1,28 @@
+Climate Report for Cyprus - 2022-03
+===================================
+
+Coverage period: 2022-03-01 to 2022-03-31
+Generated at (UTC): 2026-04-21T19:41:49.705179+00:00
+Observation points used: 6
+Total hourly rows: 4464
+
+Monthly summary
+- Mean temperature: 9.1 °C
+- Min temperature: -9.4 °C
+- Max temperature: 24.4 °C
+- Mean humidity: 62.96 %
+- Total precipitation: 235.3 mm
+- Max wind speed: 46.0 km/h
+
+Rows per observation point
+- AyiaNapa: 744
+- Larnaca: 744
+- Limassol: 744
+- Nicosia: 744
+- Paphos: 744
+- Troodos: 744
+
+Data types generated
+- Structured: CSV and Parquet
+- Semi-structured: JSON payloads and JSON summaries
+- Unstructured: text report and image chart

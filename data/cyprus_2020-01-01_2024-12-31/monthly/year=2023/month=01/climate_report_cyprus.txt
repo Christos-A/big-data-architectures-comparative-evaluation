@@ -1,0 +1,28 @@
+Climate Report for Cyprus - 2023-01
+===================================
+
+Coverage period: 2023-01-01 to 2023-01-31
+Generated at (UTC): 2026-04-21T19:42:31.116901+00:00
+Observation points used: 6
+Total hourly rows: 4464
+
+Monthly summary
+- Mean temperature: 11.46 °C
+- Min temperature: -4.0 °C
+- Max temperature: 20.7 °C
+- Mean humidity: 71.76 %
+- Total precipitation: 323.8 mm
+- Max wind speed: 34.5 km/h
+
+Rows per observation point
+- AyiaNapa: 744
+- Larnaca: 744
+- Limassol: 744
+- Nicosia: 744
+- Paphos: 744
+- Troodos: 744
+
+Data types generated
+- Structured: CSV and Parquet
+- Semi-structured: JSON payloads and JSON summaries
+- Unstructured: text report and image chart

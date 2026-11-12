@@ -1,0 +1,31 @@
+Climate Report for Cyprus
+=========================
+
+Historical period: 2025-01-01 to 2025-01-07
+Generated at (UTC): 2026-04-21T19:13:43.715345+00:00
+Observation points used: 6
+
+- Nicosia: (35.1856, 33.3823)
+- Limassol: (34.7071, 33.0226)
+- Larnaca: (34.9167, 33.6292)
+- Paphos: (34.7754, 32.4218)
+- AyiaNapa: (34.9821, 34.0018)
+- Troodos: (34.923, 32.8597)
+
+Cyprus-wide historical summary
+- Mean temperature: 10.64 °C
+- Min temperature: -2.80 °C
+- Max temperature: 19.30 °C
+- Mean humidity: 69.73 %
+- Total precipitation: 51.60 mm
+- Max wind speed: 37.20 km/h
+
+Cyprus-wide forecast summary
+- Forecast mean temperature: 15.32 °C
+- Forecast total precipitation: 0.00 mm
+
+Notes
+- Structured artifacts: CSV and Parquet tables
+- Semi-structured artifacts: raw JSON and normalized JSON
+- Unstructured artifacts: text report and PNG chart
+- Data cover multiple representative points across Cyprus

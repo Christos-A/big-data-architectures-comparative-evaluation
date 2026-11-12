@@ -1,0 +1,28 @@
+Climate Report for Cyprus - 2021-08
+===================================
+
+Coverage period: 2021-08-01 to 2021-08-31
+Generated at (UTC): 2026-04-21T19:41:24.408268+00:00
+Observation points used: 6
+Total hourly rows: 4464
+
+Monthly summary
+- Mean temperature: 28.13 °C
+- Min temperature: 12.1 °C
+- Max temperature: 42.2 °C
+- Mean humidity: 49.19 %
+- Total precipitation: 8.8 mm
+- Max wind speed: 32.8 km/h
+
+Rows per observation point
+- AyiaNapa: 744
+- Larnaca: 744
+- Limassol: 744
+- Nicosia: 744
+- Paphos: 744
+- Troodos: 744
+
+Data types generated
+- Structured: CSV and Parquet
+- Semi-structured: JSON payloads and JSON summaries
+- Unstructured: text report and image chart

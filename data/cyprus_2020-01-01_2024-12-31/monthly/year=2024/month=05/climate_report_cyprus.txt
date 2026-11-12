@@ -1,0 +1,28 @@
+Climate Report for Cyprus - 2024-05
+===================================
+
+Coverage period: 2024-05-01 to 2024-05-31
+Generated at (UTC): 2026-04-21T19:43:35.174115+00:00
+Observation points used: 6
+Total hourly rows: 4464
+
+Monthly summary
+- Mean temperature: 20.43 °C
+- Min temperature: 1.7 °C
+- Max temperature: 37.5 °C
+- Mean humidity: 59.79 %
+- Total precipitation: 111.9 mm
+- Max wind speed: 41.2 km/h
+
+Rows per observation point
+- AyiaNapa: 744
+- Larnaca: 744
+- Limassol: 744
+- Nicosia: 744
+- Paphos: 744
+- Troodos: 744
+
+Data types generated
+- Structured: CSV and Parquet
+- Semi-structured: JSON payloads and JSON summaries
+- Unstructured: text report and image chart

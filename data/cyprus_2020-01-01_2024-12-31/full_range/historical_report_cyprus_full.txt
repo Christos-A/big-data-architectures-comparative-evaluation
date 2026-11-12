@@ -1,0 +1,24 @@
+Historical Climate Report for Cyprus (2020-01-01 to 2024-12-31)
+===============================================================
+
+Generated at (UTC): 2026-04-21T19:44:07.614367+00:00
+Observation points used: 6
+Historical hourly rows: 263088
+
+Historical full-range summary
+- Mean temperature: 18.84 °C
+- Min temperature: -13.7 °C
+- Max temperature: 44.4 °C
+- Mean humidity: 62.56 %
+- Total precipitation: 10028.8 mm
+- Max wind speed: 55.3 km/h
+
+Latest forecast overview
+- Forecast hourly rows: 1008
+- Forecast mean temperature: 16.09 °C
+- Forecast total precipitation: 21.38 mm
+
+Architecture note
+- The same meteorological domain is stored across Data Lake, Lakehouse, and Data Mesh layouts.
+- Monthly partitioned uploads are used for scale and organization.
+- Full-range outputs are also generated for easier validation and querying.

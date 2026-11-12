@@ -1,0 +1,10 @@
+Forecast Report for Cyprus
+==========================
+
+Forecast days: 7
+Generated at (UTC): 2026-04-21T19:44:10.037887+00:00
+Forecast rows: 1008
+
+- Mean forecast temperature: 16.09 °C
+- Total forecast precipitation: 21.38 mm
+- Max forecast wind speed: 33.1 km/h
